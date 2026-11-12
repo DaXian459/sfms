@@ -1,0 +1,49 @@
+# ---- .NET ----
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+publish/
+artifacts/
+TestResults/
+
+# ---- 本地运行数据 ----
+.pgdata/
+pgdata/
+pg.log
+spool/
+logs/
+*.log
+
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ---- 前端 ----
+node_modules/
+web/dist/
+.vite/
+*.tsbuildinfo
+
+# ---- 工具与系统 ----
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+nuget.config.bak
+
+# ---- 运行时临时文件 ----
+*.pid
+run/
+
+# 运行期下载的大型二进制（由 scripts 自动获取）
+tools/db/*.zip
+tools/db/pgsql/
+dotnet-sdk*.zip
+*.part
