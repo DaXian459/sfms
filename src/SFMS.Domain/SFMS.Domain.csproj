@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\SFMS.Shared\SFMS.Shared.csproj" />
+  </ItemGroup>
+</Project>
