@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\SFMS.Protocols.Abstractions\SFMS.Protocols.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

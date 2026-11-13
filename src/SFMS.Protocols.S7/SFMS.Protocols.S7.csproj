@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\SFMS.Protocols.Abstractions\SFMS.Protocols.Abstractions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="S7NetPlus" />
+  </ItemGroup>
+</Project>
