@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\SFMS.Shared\SFMS.Shared.csproj" />
+    <ProjectReference Include="..\SFMS.Domain\SFMS.Domain.csproj" />
+    <ProjectReference Include="..\SFMS.Protocols.Abstractions\SFMS.Protocols.Abstractions.csproj" />
+    <ProjectReference Include="..\SFMS.Protocols.Modbus\SFMS.Protocols.Modbus.csproj" />
+    <ProjectReference Include="..\SFMS.Protocols.S7\SFMS.Protocols.S7.csproj" />
+    <ProjectReference Include="..\SFMS.Infrastructure\SFMS.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>
