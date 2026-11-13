@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>SFMS.Api</RootNamespace>
+    <UserSecretsId>sfms-api</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SFMS.Shared\SFMS.Shared.csproj" />
+    <ProjectReference Include="..\SFMS.Domain\SFMS.Domain.csproj" />
+    <ProjectReference Include="..\SFMS.Infrastructure\SFMS.Infrastructure.csproj" />
+    <ProjectReference Include="..\SFMS.Collector\SFMS.Collector.csproj" />
+    <ProjectReference Include="..\SFMS.Protocols.Modbus\SFMS.Protocols.Modbus.csproj" />
+    <ProjectReference Include="..\SFMS.Protocols.S7\SFMS.Protocols.S7.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
